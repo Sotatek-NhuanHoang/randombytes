@@ -10,7 +10,7 @@ var crypto = global.crypto || global.msCrypto
 if (crypto && crypto.getRandomValues) {
   module.exports = randomBytes
 } else {
-  module.exports = oldBrowser
+  module.exports = require('react-native-randombytes').randomBytes
 }
 
 function randomBytes (size, cb) {

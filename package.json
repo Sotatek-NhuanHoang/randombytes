@@ -31,6 +31,7 @@
     "zuul": "^3.7.2"
   },
   "dependencies": {
+    "react-native-randombytes": "^3.5.0",
     "safe-buffer": "^5.1.0"
   }
 }
